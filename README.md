@@ -151,9 +151,12 @@ Filter logic was chosen for testing because it contains the most business-critic
 **One example where I disagreed with the AI:**
 The AI's initial filter logic marked tasks as overdue purely based on date — a completed task with a past due date would show up as overdue. I corrected this to treat `completed` as a terminal status that overrides date comparison. A staff member who has already completed a task should never see it reappear as overdue — that would be a false alarm in a clinical setting.
 
-**Dashboard screenshots
+**Dashboard screenshots**
 
 <img width="1202" height="825" alt="image" src="https://github.com/user-attachments/assets/5c1a5b07-0614-4a52-85ca-9b1501a14a51" />
 <img width="1207" height="731" alt="image" src="https://github.com/user-attachments/assets/ea21f03a-f8af-4b2b-b0fc-5339937730df" />
 <img width="1199" height="738" alt="image" src="https://github.com/user-attachments/assets/5d8f1c94-e0df-466d-bb30-c23bb4ba31fe" />
 <img width="1203" height="634" alt="image" src="https://github.com/user-attachments/assets/18de1891-7b57-46f6-9625-97f490303708" />
+
+**Live Demo**
+🔗 https://care-plan-taskboard-six.vercel.app
